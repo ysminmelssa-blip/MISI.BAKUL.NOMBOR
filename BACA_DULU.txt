@@ -1,0 +1,41 @@
+MISI BAKUL NOMBOR — VERSI DENGAN VOICE-OVER DAN KAMERA BINTANG
+
+Fail ini dibina daripada index 2.html yang pengguna berikan.
+
+KANDUNGAN:
+  index.html               Permainan Misi 1, 2 dan 3 yang sudah diintegrasikan
+  suara-permainan.js        Rakaman MP3 dan kawalan main/berhenti
+  kamera-bintang.js        Kesan kamera bintang asal
+  audio/                    48 rakaman MP3 pengguna
+
+CARA MEMAINKAN:
+1. Nyahzip fail ini.
+2. Buka index.html (tanpa memisahkannya daripada dua fail .js dan folder audio).
+3. Tekan 'Dengar ucapan' atau 'Seterusnya' untuk mengaktifkan audio.
+4. Pilih watak dan pakaian; tekan 'Jom Main!'.
+5. Semasa permainan:
+      🔊  hidupkan/matikan voice-over
+      🔁  ulang arahan misi
+      💡  dengar petunjuk
+      ⚙️  tukar julat nombor (3 / 5 / 10)
+      ⛶   skrin penuh
+      ⭐📷  kamera, di bahagian kanan bawah
+
+UNTUK GITHUB PAGES:
+- Muat naik SEMUA kandungan folder ini ke direktori utama (root)
+  repository, mengekalkan nama fail dan folder audio/ (jangan upload ZIP sahaja).
+- Pastikan index.html berada pada root.
+- Gunakan HTTPS GitHub Pages untuk fungsi webcam. Kamera memerlukan izin
+  peranti serta akses internet kepada MediaPipe seperti dalam kod asal.
+- Kamera tidak diuji dengan webcam fizikal dalam persekitaran ini;
+  mekanisme kamera asal dikekalkan bersama penambahbaikan bintang.
+- Jika kamera tidak dapat digunakan, kawalan tetikus/sentuhan masih boleh digunakan.
+
+NOTA:
+- Audio dimainkan satu demi satu supaya tidak bertindih. Apabila murid
+  membuat tindakan baharu, arahan lama mungkin berhenti untuk memainkan
+  maklum balas terbaru.
+- MP3 yang dimasukkan adalah rakaman pengguna dan bukan suara robot.
+- Beberapa fail audio tambahan kekal tersedia untuk pengembangan pada masa depan.
+- Sambungan automatik setiap audio diuji melalui pengganti pemain media
+  dalam ujian pelayar; pengalaman suara pada peranti sebenar mungkin berbeza.
